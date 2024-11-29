@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tosh Qaychi Qog'oz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Tosh, Qaychi, Qog'oz</h1>
+
+        <div class="choices">
+            <button onclick="playGame('rock')" class="choice">🪨</button>
+            <button onclick="playGame('paper')" class="choice">📄</button>
+            <button onclick="playGame('scissors')" class="choice">✂️</button>
+        </div>
+        <div class="result">
+            <p id="playerDisplay">Sizning tanlovingiz:</p>
+            <p id="computerDisplay">Kompyuter tanlovi:</p>
+            <h2 id="resultDisplay"></h2>
+        </div>
+        <div class="scoreDisplay"> Player Score
+            <span id="playerScoreDisplay">0</span>
+        </div>
+        <div class="scoreDisplay"> Computer Score
+            <span id="computerScoreDisplay">0</span>
+        </div> 
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
